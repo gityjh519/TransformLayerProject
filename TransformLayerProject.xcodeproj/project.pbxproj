@@ -12,6 +12,26 @@
 		F77052A2225C9DFC006F4F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77052A0225C9DFC006F4F1E /* Main.storyboard */; };
 		F77052A4225C9DFD006F4F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77052A3225C9DFD006F4F1E /* Assets.xcassets */; };
 		F77052A7225C9DFE006F4F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77052A5225C9DFE006F4F1E /* LaunchScreen.storyboard */; };
+		F77052CA225C9E38006F4F1E /* TransitionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052B1225C9E38006F4F1E /* TransitionManger.swift */; };
+		F77052CB225C9E38006F4F1E /* PopBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052B2225C9E38006F4F1E /* PopBaseViewController.swift */; };
+		F77052CC225C9E38006F4F1E /* CurrentModelContontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052B3225C9E38006F4F1E /* CurrentModelContontroller.swift */; };
+		F77052CD225C9E38006F4F1E /* JHSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052B4225C9E38006F4F1E /* JHSBaseViewController.swift */; };
+		F77052CE225C9E38006F4F1E /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052B5225C9E38006F4F1E /* BaseController.swift */; };
+		F77052CF225C9E38006F4F1E /* RequestOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052B7225C9E38006F4F1E /* RequestOperation.swift */; };
+		F77052D0225C9E38006F4F1E /* ReadFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052B8225C9E38006F4F1E /* ReadFileManager.swift */; };
+		F77052D1225C9E38006F4F1E /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052B9225C9E38006F4F1E /* RequestConfig.swift */; };
+		F77052D2225C9E38006F4F1E /* RelationFileKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052BA225C9E38006F4F1E /* RelationFileKey.swift */; };
+		F77052D3225C9E38006F4F1E /* HttpParamterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052BB225C9E38006F4F1E /* HttpParamterModel.swift */; };
+		F77052D4225C9E38006F4F1E /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052BD225C9E38006F4F1E /* BaseModel.swift */; };
+		F77052D5225C9E38006F4F1E /* FMBaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052BF225C9E38006F4F1E /* FMBaseCollectionView.swift */; };
+		F77052D6225C9E38006F4F1E /* FMScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052C0225C9E38006F4F1E /* FMScrollView.swift */; };
+		F77052D7225C9E38006F4F1E /* BlurModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052C1225C9E38006F4F1E /* BlurModelView.swift */; };
+		F77052D8225C9E38006F4F1E /* FMBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052C2225C9E38006F4F1E /* FMBaseTableView.swift */; };
+		F77052D9225C9E38006F4F1E /* DefineSwiftFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052C4225C9E38006F4F1E /* DefineSwiftFunc.swift */; };
+		F77052DA225C9E38006F4F1E /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052C5225C9E38006F4F1E /* ExtensionView.swift */; };
+		F77052DB225C9E38006F4F1E /* AppDelegateExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052C6225C9E38006F4F1E /* AppDelegateExtenstion.swift */; };
+		F77052DC225C9E38006F4F1E /* AppExtenConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052C7225C9E38006F4F1E /* AppExtenConfig.swift */; };
+		F77052DD225C9E38006F4F1E /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77052C9225C9E38006F4F1E /* DataBaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +42,26 @@
 		F77052A3225C9DFD006F4F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77052A6225C9DFE006F4F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F77052A8225C9DFE006F4F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77052B1225C9E38006F4F1E /* TransitionManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManger.swift; sourceTree = "<group>"; };
+		F77052B2225C9E38006F4F1E /* PopBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopBaseViewController.swift; sourceTree = "<group>"; };
+		F77052B3225C9E38006F4F1E /* CurrentModelContontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentModelContontroller.swift; sourceTree = "<group>"; };
+		F77052B4225C9E38006F4F1E /* JHSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSBaseViewController.swift; sourceTree = "<group>"; };
+		F77052B5225C9E38006F4F1E /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		F77052B7225C9E38006F4F1E /* RequestOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOperation.swift; sourceTree = "<group>"; };
+		F77052B8225C9E38006F4F1E /* ReadFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadFileManager.swift; sourceTree = "<group>"; };
+		F77052B9225C9E38006F4F1E /* RequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
+		F77052BA225C9E38006F4F1E /* RelationFileKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationFileKey.swift; sourceTree = "<group>"; };
+		F77052BB225C9E38006F4F1E /* HttpParamterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpParamterModel.swift; sourceTree = "<group>"; };
+		F77052BD225C9E38006F4F1E /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		F77052BF225C9E38006F4F1E /* FMBaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBaseCollectionView.swift; sourceTree = "<group>"; };
+		F77052C0225C9E38006F4F1E /* FMScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMScrollView.swift; sourceTree = "<group>"; };
+		F77052C1225C9E38006F4F1E /* BlurModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurModelView.swift; sourceTree = "<group>"; };
+		F77052C2225C9E38006F4F1E /* FMBaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBaseTableView.swift; sourceTree = "<group>"; };
+		F77052C4225C9E38006F4F1E /* DefineSwiftFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineSwiftFunc.swift; sourceTree = "<group>"; };
+		F77052C5225C9E38006F4F1E /* ExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		F77052C6225C9E38006F4F1E /* AppDelegateExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateExtenstion.swift; sourceTree = "<group>"; };
+		F77052C7225C9E38006F4F1E /* AppExtenConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtenConfig.swift; sourceTree = "<group>"; };
+		F77052C9225C9E38006F4F1E /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 		F770529B225C9DFC006F4F1E /* TransformLayerProject */ = {
 			isa = PBXGroup;
 			children = (
+				F77052AE225C9E38006F4F1E /* frameTask */,
 				F770529C225C9DFC006F4F1E /* AppDelegate.swift */,
 				F770529E225C9DFC006F4F1E /* ViewController.swift */,
 				F77052A0225C9DFC006F4F1E /* Main.storyboard */,
@@ -62,6 +103,89 @@
 				F77052A8225C9DFE006F4F1E /* Info.plist */,
 			);
 			path = TransformLayerProject;
+			sourceTree = "<group>";
+		};
+		F77052AE225C9E38006F4F1E /* frameTask */ = {
+			isa = PBXGroup;
+			children = (
+				F77052AF225C9E38006F4F1E /* controller */,
+				F77052B6225C9E38006F4F1E /* http */,
+				F77052BC225C9E38006F4F1E /* model */,
+				F77052BE225C9E38006F4F1E /* view */,
+				F77052C3225C9E38006F4F1E /* extenstion */,
+				F77052C8225C9E38006F4F1E /* caches */,
+			);
+			path = frameTask;
+			sourceTree = "<group>";
+		};
+		F77052AF225C9E38006F4F1E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F77052B0225C9E38006F4F1E /* pop */,
+				F77052B4225C9E38006F4F1E /* JHSBaseViewController.swift */,
+				F77052B5225C9E38006F4F1E /* BaseController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F77052B0225C9E38006F4F1E /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				F77052B1225C9E38006F4F1E /* TransitionManger.swift */,
+				F77052B2225C9E38006F4F1E /* PopBaseViewController.swift */,
+				F77052B3225C9E38006F4F1E /* CurrentModelContontroller.swift */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		F77052B6225C9E38006F4F1E /* http */ = {
+			isa = PBXGroup;
+			children = (
+				F77052B7225C9E38006F4F1E /* RequestOperation.swift */,
+				F77052B8225C9E38006F4F1E /* ReadFileManager.swift */,
+				F77052B9225C9E38006F4F1E /* RequestConfig.swift */,
+				F77052BA225C9E38006F4F1E /* RelationFileKey.swift */,
+				F77052BB225C9E38006F4F1E /* HttpParamterModel.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		F77052BC225C9E38006F4F1E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F77052BD225C9E38006F4F1E /* BaseModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F77052BE225C9E38006F4F1E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F77052BF225C9E38006F4F1E /* FMBaseCollectionView.swift */,
+				F77052C0225C9E38006F4F1E /* FMScrollView.swift */,
+				F77052C1225C9E38006F4F1E /* BlurModelView.swift */,
+				F77052C2225C9E38006F4F1E /* FMBaseTableView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F77052C3225C9E38006F4F1E /* extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				F77052C4225C9E38006F4F1E /* DefineSwiftFunc.swift */,
+				F77052C5225C9E38006F4F1E /* ExtensionView.swift */,
+				F77052C6225C9E38006F4F1E /* AppDelegateExtenstion.swift */,
+				F77052C7225C9E38006F4F1E /* AppExtenConfig.swift */,
+			);
+			path = extenstion;
+			sourceTree = "<group>";
+		};
+		F77052C8225C9E38006F4F1E /* caches */ = {
+			isa = PBXGroup;
+			children = (
+				F77052C9225C9E38006F4F1E /* DataBaseManager.swift */,
+			);
+			path = caches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +259,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77052D8225C9E38006F4F1E /* FMBaseTableView.swift in Sources */,
+				F77052D6225C9E38006F4F1E /* FMScrollView.swift in Sources */,
+				F77052D2225C9E38006F4F1E /* RelationFileKey.swift in Sources */,
+				F77052D0225C9E38006F4F1E /* ReadFileManager.swift in Sources */,
+				F77052CC225C9E38006F4F1E /* CurrentModelContontroller.swift in Sources */,
+				F77052DC225C9E38006F4F1E /* AppExtenConfig.swift in Sources */,
+				F77052D4225C9E38006F4F1E /* BaseModel.swift in Sources */,
 				F770529F225C9DFC006F4F1E /* ViewController.swift in Sources */,
+				F77052DB225C9E38006F4F1E /* AppDelegateExtenstion.swift in Sources */,
+				F77052CE225C9E38006F4F1E /* BaseController.swift in Sources */,
+				F77052DD225C9E38006F4F1E /* DataBaseManager.swift in Sources */,
+				F77052CF225C9E38006F4F1E /* RequestOperation.swift in Sources */,
+				F77052D1225C9E38006F4F1E /* RequestConfig.swift in Sources */,
+				F77052D9225C9E38006F4F1E /* DefineSwiftFunc.swift in Sources */,
+				F77052CA225C9E38006F4F1E /* TransitionManger.swift in Sources */,
 				F770529D225C9DFC006F4F1E /* AppDelegate.swift in Sources */,
+				F77052DA225C9E38006F4F1E /* ExtensionView.swift in Sources */,
+				F77052D5225C9E38006F4F1E /* FMBaseCollectionView.swift in Sources */,
+				F77052CB225C9E38006F4F1E /* PopBaseViewController.swift in Sources */,
+				F77052CD225C9E38006F4F1E /* JHSBaseViewController.swift in Sources */,
+				F77052D3225C9E38006F4F1E /* HttpParamterModel.swift in Sources */,
+				F77052D7225C9E38006F4F1E /* BlurModelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJUVMN7HVC;
 				INFOPLIST_FILE = TransformLayerProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJUVMN7HVC;
 				INFOPLIST_FILE = TransformLayerProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
